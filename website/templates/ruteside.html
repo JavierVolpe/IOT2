@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block title %} Ruteside {% endblock %}
+
+{% block content %}
+<div class="container"></div>
+<h1>Her kan ruten vælges</h1>
+<div class="card" style="background-color:grey;">
+    <div class="card-body">
+        <form action="" method="post" class="text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="submit" class="btn btn-primary" name="Rest" value="rest" method="post">Vis rest afflad.</button>
+        <button type="submit" class="btn btn-primary" name="Mad" value="mad" method="post">Vis mad affald.</button>
+        <button type="submit" class="btn btn-primary" name="Plast" value="plast" method="post">Vis plast affald.</button>
+        <button type="submit" class="btn btn-primary" name="Pap" value="pap" method="post">Vis pap afflad.</button>
+    </div>
+</form>
+    </div>
+    <div class="card" style="background-color:grey;">
+        <div class="card-body">
+        <iframe class="text-center"
+  width="800px"
+  height="600px"
+  frameborder="0" style="border:0"
+  referrerpolicy="no-referrer-when-downgrade"
+  src="https://www.google.com/maps/embed/v1/directions?key=AIzaSyBoykFM7MaQ1RxYvzCGVVFNX21sQc8TZa4{{data}}"
+  allowfullscreen>
+</iframe>
+</div>
+</div>
+</div>
+</div>
+{% endblock %}
