@@ -6,7 +6,7 @@ db_path_addr = "db/adresse.db"
 
 def log_affald_data():
     query = """INSERT INTO adresser (ID, Adresse, Type, Latitude, Longitude) VALUES (?, ?, ?, ?, ?)"""
-    geolocator = geocoders.GoogleV3(api_key="AIzaSyBoykFM7MaQ1RxYvzCGVVFNX21sQc8TZa4")
+    geolocator = geocoders.GoogleV3(api_key="API-KEY")
     try:
         conn = sqlite3.connect(db_path_addr)
         curs = conn.cursor()
