@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block title %} register {% endblock %}
+
+{% block content %} 
+<div class="container">
+    <div class="card" style="background-color:grey;" >
+      <div class="card-body">
+    <h1>Create an account</h1>
+    <form action="#" method="post">
+      <label for="username">Username:</label>
+      <input type="text" name="username" />
+      <label for="password">Password:</label>
+      <input type="password" name="password" />
+      <button type="submit">Submit</button>
+    </form>
+      </div>
+    </div>
+</div>
+{% endblock %}

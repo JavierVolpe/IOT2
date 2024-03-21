@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block title %} Skralde_niveau {% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="card" style="background-color:grey;" >
+    <div class="card-body">
+<form method="post">
+    <div class="mb-3 text-center">
+        <label for="skralde_adresse" class="form-label">Indtast adresse</label>
+        <input type="address" class="form-control" id="skralde_adresse" name="skrald">
+        <button type="submit">Submit</button>
+      </div>
+</form>
+<div>
+  <div>
+  <h1>Oversigt over skralde niveau</h1>
+  {{rest_img | safe}}
+  </div>
+</div>
+</div>
+</div>
+{% endblock %}
