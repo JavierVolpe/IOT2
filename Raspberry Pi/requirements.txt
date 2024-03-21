@@ -1,0 +1,6 @@
+colorzero==2.0
+importlib-metadata==4.13.0
+importlib-resources==5.13.0
+paho-mqtt==2.0.0
+schedule==1.2.1
+zipp==3.17.0
