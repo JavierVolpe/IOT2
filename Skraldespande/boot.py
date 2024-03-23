@@ -1,3 +1,5 @@
+# Kilde: Rui Santos - Random Nerd Tutorials 
+
 from ubinascii import hexlify
 from machine import unique_id
 import micropython
