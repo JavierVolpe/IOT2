@@ -1,4 +1,9 @@
+
 # Smart Skraldespande -- Intelligent Waste Monitoring
+## 🎓 About This Project
+
+This project was developed as part of the **IT-Teknologi** programme at **KEA – Copenhagen School of Design and Technology**.  
+It was completed during the **2nd semester (1st year)** by students in the spring of 2024, as a practical group assignment combining embedded systems, networking, databases, and web development.
 
 **Smart Skraldespande** is an IoT-based waste monitoring system designed to improve waste management efficiency in urban environments. It uses ESP32 microcontrollers with various sensors to measure bin fill levels, battery status, tilt detection (fall), and flame presence. All data is sent via MQTT to a Raspberry Pi, which logs it into a local database and optionally forwards it to a cloud broker for external integration.
 
